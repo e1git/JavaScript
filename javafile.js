@@ -1,6 +1,18 @@
+function drawTriangle(ctx, x, y, size, color) {
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.moveTo(x, y);                      // top vertex
+  ctx.lineTo(x + size, y + size);        // bottom right
+  ctx.lineTo(x - size, y + size);        // bottom left
+  ctx.closePath();
+  ctx.fill();
+}
+
 function draw() {
   const canvas = document.getElementById("Canvas");
   const ctx = canvas.getContext("2d");
+
+
 
   ctx.fillStyle = "rgb(200 0 0)";
   ctx.fillRect(10, 10, 50, 50);
@@ -10,6 +22,6 @@ function draw() {
   //ok
 }
 draw();
-
+drawTriangle(ctx, 100, 50, 40, "rgb(0 200 0)");
 // the hello world program
 console.log('Hello World');
