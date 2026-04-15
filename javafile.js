@@ -22,7 +22,7 @@ function draw(ctx) {
 }
   const canvas = document.getElementById("Canvas");
   const ctx = canvas.getContext("2d");
-///draw(ctx);
-drawTriangle(ctx, 100, 50, 40, "rgb(0 200 0)");
+draw(ctx);
+drawTriangle(ctx, 100, 1, 40, "rgb(0 200 0)");
 // the hello world program
 console.log('Hello World');
