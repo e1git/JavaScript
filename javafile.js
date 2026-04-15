@@ -23,5 +23,5 @@ function draw(ctx) {
 const canvas = document.getElementById("Canvas");
 const ctx = canvas.getContext("2d");
 
-draw(ctx);
+//draw(ctx);
 drawTriangle(ctx, 100, 1, 40, "rgb(0 200 0)");
