@@ -25,3 +25,4 @@ const ctx = canvas.getContext("2d");
 
 //draw(ctx);
 drawTriangle(ctx, 100, 1, 40, "rgb(0 200 0)");
+drawTriangle(ctx, 150, 1, 40, "rgb(200, 0, 150)");
