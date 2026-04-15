@@ -7,5 +7,6 @@ function draw() {
 
   ctx.fillStyle = "rgb(0 0 200 / 50%)";
   ctx.fillRect(30, 30, 50, 50);
+  //ok
 }
 draw();
