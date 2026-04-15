@@ -8,9 +8,8 @@ function drawTriangle(ctx, x, y, size, color) {
   ctx.fill();
 }
 
-function draw() {
-  const canvas = document.getElementById("Canvas");
-  const ctx = canvas.getContext("2d");
+function draw(ctx) {
+
 
 
 
@@ -21,7 +20,9 @@ function draw() {
   ctx.fillRect(30, 30, 150, 150);
   //ok
 }
-draw();
+  const canvas = document.getElementById("Canvas");
+  const ctx = canvas.getContext("2d");
+draw(ctx);
 drawTriangle(ctx, 100, 50, 40, "rgb(0 200 0)");
 // the hello world program
 console.log('Hello World');
